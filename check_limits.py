@@ -10,4 +10,5 @@ if __name__ == '__main__':
   assert(battery_is_ok(50, 85, 0) is False)
   assert(battery_is_ok(40, 90, .9) is False)
   assert(battery_is_ok(70, 45, 1) is False)
+  assert(battery_is_ok(100, 100, 2) is False)
   print("All Test Scenarios Covered")

@@ -1,6 +1,6 @@
 from Threshold_Limit_Constant import *
 
-def verify_state_of_charge(soc):
+def verify_state_of_charge_threshold(soc):
   if soc < MIN_STATE_OF_CHARGE or soc > MAX_STATE_OF_CHARGE:
     return False
   return True

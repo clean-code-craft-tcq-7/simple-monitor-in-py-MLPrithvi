@@ -1,6 +1,5 @@
 from Check_Temperature import *
 from Check_State_Of_Charge import *
-# from Check_Charge_Rate import *
 
 def battery_is_ok(temperature, soc):
   battery_condition = False

@@ -11,8 +11,6 @@ def battery_is_ok(temperature, soc, charge_rate):
   print_battery_properties(battery_temperature, battery_soc, battery_charge_rate)
   if(battery_temperature and battery_soc and battery_charge_rate):
         battery_condition = True
-        print(battery_condition)
         return battery_condition
   else:
-        print(battery_condition)
         return battery_condition
